@@ -18,16 +18,14 @@ Github Pagesのトップページへのアクセスを任意のURLにリダイ�
 $ clone https://github.com/succi0303/jekyll-redirect-template
 ```
 
-`index.html`の`{url you want to redirect to}`の部分をリダイレクト先のURLに書き換えます。
+`index.html`の`{redirect url}`の部分をリダイレクト先のURLに書き換えます。
 
 - 編集前
 
 ```markdown
 ---
-layout: redirected
-sitemap: false
-permalink: /
-redirect_to: {url you want to redirect to}
+layout: home
+redirect_to: {redirect url}
 ---
 ```
 
@@ -35,9 +33,7 @@ redirect_to: {url you want to redirect to}
 
 ```markdown
 ---
-layout: redirected
-sitemap: false
-permalink: /
+layout: home
 redirect_to: https://blog.succi0303.com
 ---
 ```
