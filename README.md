@@ -38,7 +38,27 @@ redirect_to: https://blog.succi0303.com
 ---
 ```
 
-3. 変更をコミットしてGithub Pages用のリポジトリ・ブランチにプッシュします。
+3. `404.html`の`{redirect url}`の部分をリダイレクト先のURLに書き換えます。
+
+- 編集前
+
+```markdown
+---
+layout: default
+redirect_to: <redirect url>
+---
+```
+
+- 編集後
+
+```markdown
+---
+layout: default
+redirect_to: https://blog.succi0303.com
+---
+```
+
+4. 変更をコミットしてGithub Pages用のリポジトリ・ブランチにプッシュします。
 
 ```bash
 $ git add .
@@ -65,9 +85,3 @@ $ git push -u gh-pages-origin gh-pages
 下記ののリンクをクリックすると`https://blog.succi0303.com`にリダイレクトされます。
 
 - [https://succi0303.github.io](https://succi0303.github.io)
-
-## 制限事項
-
-リダイレクトされるのはトップページへのアクセスのみです。
-
-サブディレクトリや個別のページへの直接アクセスには404が返ります。
