@@ -78,6 +78,6 @@ $ git push -u gh-pages-origin gh-pages
 
 ## Exmaple
 
-Clicking below link will be redirected to `https://blog.succi0303.com`.
+Following link redirects to `https://blog.succi0303.com`.
 
 - [https://succi0303.github.io](https://succi0303.github.io)
