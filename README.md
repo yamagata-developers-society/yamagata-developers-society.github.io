@@ -4,7 +4,7 @@ This is a template project that makes access to GitHub Pages redirect to arbitra
 
 - - -
 
-Github Pagesのトップページへのアクセスを任意のURLにリダイレクトするためのテンプレートプロジェクトです。
+Github Pagesへのアクセスを任意のURLにリダイレクトするためのテンプレートプロジェクトです。
 
 主に以下のユースケースを想定しています。
 
