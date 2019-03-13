@@ -4,7 +4,7 @@ This is a template project that makes access to GitHub Pages redirect to arbitra
 
 For the situation illustrated below.
 
-- You had hosted a website at GitHub Pages default URL, and you moved the site to other URL. You want to make accesses to old URL redirect to new URL.
+- You had hosted a website at GitHub Pages and you moved the site to other URL. You want to make accesses to old URL redirect to new URL.
 
 ## Usage
 
