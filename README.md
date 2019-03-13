@@ -1,6 +1,6 @@
 # jekyll-redirect-template
 
-This is a template that makes access to top page of GitHub pages redirect to arbitrary url.
+This is a template project that makes access to GitHub Pages redirect to arbitrary url.
 
 - - -
 
