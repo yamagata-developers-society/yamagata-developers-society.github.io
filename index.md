@@ -3,5 +3,5 @@
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 
 layout: home
-redirect_to : {redirect url}
+redirect_to : /blog
 ---
